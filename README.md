@@ -1,7 +1,7 @@
 # SWEProject
 Project for SWE 
 
-##PARTNER AGREEMENT: 
+## PARTNER AGREEMENT: 
 
 Respond within 24 hours (preferably as soon as possible)
 Communicate effectively and make efforts to share anything that involves both partners
