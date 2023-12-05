@@ -18,3 +18,29 @@ Communicate through Discord (or Canvas messages if not responded to Discord prom
 Respect each other's time and opinions to create a fair work relationship 
 
 Positive and constructive feedback when/if needed 
+
+
+
+UML DESIGN:
+![image](https://github.com/nianatali18/SWEProject/assets/56011637/fda4b68b-6f47-4634-95e9-5c6f983adf2c)
+
+
+
+UML DETAILS:
+
+1. User interacts with system when they enter add or delete 
+
+2. User requests a data update 
+
+3. Micro-service validates the action entered by the user 
+
+4. Micro-service displays the current grocery list 
+
+5. Microservice performs the action chosen to the grocery list 
+
+6. An update is sent to ZeroMQ Socket 
+
+7. ZeroMQ socket using the pub/sub mechanism publishes the list
+
+ 
+
