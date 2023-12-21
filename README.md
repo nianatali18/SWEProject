@@ -22,25 +22,34 @@ Positive and constructive feedback when/if needed
 
 
 UML DESIGN:
-![image](https://github.com/nianatali18/SWEProject/assets/56011637/fda4b68b-6f47-4634-95e9-5c6f983adf2c)
+<img width="627" alt="Screenshot 2023-12-20 at 3 57 11 PM" src="https://github.com/nianatali18/SWEProject/assets/56011637/5ed1d47e-d911-4376-ba30-ba7df8de419a">
 
 
+
+How to Use Micro-Service: 
+
+a) Begin by running both Python scripts in your code editor (if you have a MAC use python3 (Script name)) 
+b) Once it is running you can then use the application to request the use of the grocery list and it will display
+c) When the grocery input system appears it will display the option to add or delete an item
+d) If an option is not chosen correctly then it will show the options again until you get it right 
+e) Once a correct option is selected you can enter or delete something (one at a time) and then press enter and it will update 
+f) The list will then update and display and the options will be displayed again until another option in your app is chosen 
 
 UML DETAILS:
 
-1. User interacts with system when they enter add or delete 
+1. The Partners app interacts with microservice when it is called 
 
-2. User requests a data update 
+2. The app requests a data update or deletion and it is sent to MS 
 
 3. Micro-service validates the action entered by the user 
 
-4. Micro-service displays the current grocery list 
+4. Micro-service displays the current grocery list or if there is an error it tells the user to try again 
 
-5. Microservice performs the action chosen to the grocery list 
+5. Microservice performs the action chosen for the grocery list 
 
-6. An update is sent to ZeroMQ Socket 
+6. An update is sent to the ZeroMQ Socket 
 
-7. ZeroMQ socket using the pub/sub mechanism publishes the list
+7. ZeroMQ socket using the pub/sub mechanism publishes the list for full view 
 
  
 
