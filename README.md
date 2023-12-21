@@ -22,7 +22,8 @@ Positive and constructive feedback when/if needed
 
 
 UML DESIGN:
-<img width="627" alt="Screenshot 2023-12-20 at 3 57 11 PM" src="https://github.com/nianatali18/SWEProject/assets/56011637/5ed1d47e-d911-4376-ba30-ba7df8de419a">
+<img width="667" alt="Screenshot 2023-12-20 at 4 16 25 PM" src="https://github.com/nianatali18/SWEProject/assets/56011637/58512813-f752-4409-84aa-d99d71d63a38">
+
 
 
 
